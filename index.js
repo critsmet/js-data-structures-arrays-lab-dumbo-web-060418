@@ -6,4 +6,6 @@ function destructivelyAppendDriver(name){
   drivers.push("Ralph")
 }
 
-function destructivelyPrependDriver(name)
+function destructivelyPrependDriver(name){
+  drivers.shift("")
+}
